@@ -25,9 +25,6 @@ Aqui você encontra projetos que demonstram habilidades em:
 ## 🚀 Projetos Disponíveis
 
 ### 1️⃣ Automação Financeira: Dólar, Ações e Notícias
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/financeiro.png" width="600px" alt="automação-financeira" />
-</p>
 
 📊 Automatiza a coleta diária das principais informações financeiras.  
 
@@ -39,14 +36,9 @@ Aqui você encontra projetos que demonstram habilidades em:
 - Gera **gráficos interativos** com Matplotlib.
 - Pronto para **agendamento automático diário (cron/Windows Task Scheduler).**
 
-🔗 [Ver notebook](./Automacao_Financeira.ipynb)
-
 ---
 
 ### 2️⃣ Organização Automática de Arquivos
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/organizador.png" width="600px" alt="organizador-de-arquivos" />
-</p>
 
 🗂 Organiza automaticamente arquivos de uma pasta local por tipo.
 
@@ -57,8 +49,6 @@ Aqui você encontra projetos que demonstram habilidades em:
   - Renomear arquivos
   - Remover duplicados
   - Log de movimentações
-
-🔗 [Ver notebook](./Organizador_de_Arquivos.ipynb)
 
 ---
 
@@ -72,13 +62,5 @@ Aqui você encontra projetos que demonstram habilidades em:
 | 🕸 BeautifulSoup | Web Scraping |
 | 📡 Requests | Acesso a APIs e RSS |
 | 💾 SQLite | Banco de dados leve local |
-
----
-
-## 🧠 Próximos passos
-
-- [ ] Agendamento com cron no Linux
-- [ ] Envio automático de e-mail com relatórios
-- [ ] Deploy em nuvem (Streamlit, Lambda, etc.)
 
 ---
