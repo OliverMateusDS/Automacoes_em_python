@@ -1,26 +1,84 @@
-# 📦 Automação com Python
+<h1 align="center">📦 Automação com Python</h1>
+<p align="center">Notebooks práticos para tornar suas rotinas mais eficientes com Python</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow" />
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+</p>
+
+---
+
+## ✨ Visão Geral
 
 Bem-vindo ao repositório de **Automação Cotidiana com Python**!  
-Aqui você encontra notebooks práticos que facilitam rotinas do dia a dia e demonstram habilidades em Python para automação, análise de dados e integração com bancos de dados e web scraping.
+Aqui você encontra projetos que demonstram habilidades em:
 
-## ✨ Projetos disponíveis
+- 🔄 Automação de tarefas repetitivas  
+- 📈 Análise de dados  
+- 🌐 Web scraping  
+- 🗂 Organização de arquivos  
+- 🧠 Integração com APIs e Banco de Dados
 
-### 1. Automação Financeira: Dólar, Ações e Notícias
-Automatiza a coleta diária das principais informações financeiras para investidores ou interessados no mercado.
+---
+
+## 🚀 Projetos Disponíveis
+
+### 1️⃣ Automação Financeira: Dólar, Ações e Notícias
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/placeholder/financeiro.png" width="600px" alt="automação-financeira" />
+</p>
+
+📊 Automatiza a coleta diária das principais informações financeiras.  
+
 **Funcionalidades:**
-- Coleta a cotação do dólar dos últimos 7 dias (API).
-- Baixa os preços de fechamento das ações PETR4, VALE3 e ITUB4 dos últimos 30 dias (Yahoo Finance).
-- Realiza web scraping de notícias relevantes nos principais portais brasileiros (via Google News RSS).
-- Armazena tudo em um banco de dados SQLite.
-- Gera gráficos de distribuição de preços das ações e evolução do dólar.
-- Pronto para agendamento (execução automática diária).
-  
-### 2. Organização Automática de Arquivos
-Organiza automaticamente os arquivos de uma pasta, separando-os por tipo (PDF, planilhas, imagens, documentos, etc.).  
-**Funcionalidades:**
-- Criação automática de subpastas por categoria.
-- Movimentação segura dos arquivos para suas respectivas pastas.
-- Pronto para adaptar para outras rotinas (renomear, excluir duplicados, etc.).
+- Coleta a cotação do **dólar** dos últimos 7 dias via API.
+- Baixa preços de fechamento das ações **PETR4, VALE3, ITUB4** via Yahoo Finance.
+- Faz scraping de **notícias financeiras** via Google News RSS.
+- Armazena tudo em banco de dados **SQLite**.
+- Gera **gráficos interativos** com Matplotlib.
+- Pronto para **agendamento automático diário (cron/Windows Task Scheduler).**
 
+🔗 [Ver notebook](./Automacao_Financeira.ipynb)
+
+---
+
+### 2️⃣ Organização Automática de Arquivos
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/placeholder/organizador.png" width="600px" alt="organizador-de-arquivos" />
+</p>
+
+🗂 Organiza automaticamente arquivos de uma pasta local por tipo.
+
+**Funcionalidades:**
+- Criação automática de **subpastas** por categoria: PDF, imagens, planilhas etc.
+- Movimentação **segura** dos arquivos.
+- Fácil de adaptar para:
+  - Renomear arquivos
+  - Remover duplicados
+  - Log de movimentações
+
+🔗 [Ver notebook](./Organizador_de_Arquivos.ipynb)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+| Ferramenta | Descrição |
+|------------|-----------|
+| 🐍 Python  | Linguagem principal |
+| 🧮 Pandas  | Manipulação de dados |
+| 📊 Matplotlib | Visualização de dados |
+| 🕸 BeautifulSoup | Web Scraping |
+| 📡 Requests | Acesso a APIs e RSS |
+| 💾 SQLite | Banco de dados leve local |
+
+---
+
+## 🧠 Próximos passos
+
+- [ ] Agendamento com cron no Linux
+- [ ] Envio automático de e-mail com relatórios
+- [ ] Deploy em nuvem (Streamlit, Lambda, etc.)
 
 ---
