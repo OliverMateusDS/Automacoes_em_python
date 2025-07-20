@@ -1,4 +1,4 @@
-# 📦 Automação Cotidiana com Python
+# 📦 Automação com Python
 
 Bem-vindo ao repositório de **Automação Cotidiana com Python**!  
 Aqui você encontra notebooks práticos que facilitam rotinas do dia a dia e demonstram habilidades em Python para automação, análise de dados e integração com bancos de dados e web scraping.
